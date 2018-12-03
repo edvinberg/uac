@@ -119,7 +119,7 @@ add_action( 'widgets_init', 'vertex_widgets_init' );
  */
 function vertex_footer_copyright() {
 
-	return '&copy; ' . date_i18n( __( 'Y', 'vertex' ) ) .'. '. __('Powered by <a href="https://wordpress.org" target="_blank">WordPress</a>. Vertex created by <a href="http://dessign.net/" target="_blank">Dessign</a>','vertex');
+	return '&copy; ' . date_i18n( __( 'Y', 'uacity' ) ) .'. '. __('Powered by <a href="https://wordpress.org" target="_blank">WordPress</a>. Vertex created by <a href="http://dessign.net/" target="_blank">Dessign</a>','vertex');
 
 }
 

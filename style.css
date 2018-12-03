@@ -203,12 +203,15 @@ input[type="phone"] { width: 300px; height: 40px; border: 2px solid #ddd; backgr
   .post_content .port-image { height: 250px; }
 }
 
+@media only screen and ( min-width: 961px ){
+  .fixed .slicknav_menu { position: fixed;   }
+}
 @media only screen and ( max-width: 960px ){
   .head-nav { display: none; }
   .float-header { padding-top: 40px; }
   .float-header { margin: 0 auto; position: relative; padding-top: 10px; }
   .slicknav_menu { background: #fff; display: block; position: relative; right: 0; width: 100%; padding: 0; z-index: 999999; }
-  .fixed .slicknav_menu { position: fixed;   }
+
   .slicknav_nav { background: #ffffff none repeat scroll 0 0; box-shadow: 0 2px 1px 0 #cccccc; width: 100%; }
   .blog_posts { width: auto; }
   article.post_box { width: 100%; }

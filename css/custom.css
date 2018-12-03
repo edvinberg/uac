@@ -221,14 +221,14 @@ article.post_box, .blog_posts {
     }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 960px) {
     header.fixed .float-header {
         position: relative;
         top: 0;
     }
 }
 
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: 961px) {
     .content .container {
         margin-left: 235px;
         overflow: hidden;
